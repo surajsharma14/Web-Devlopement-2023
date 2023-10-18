@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    position: fixed;
+  }
+  header {
+    background-color: pink;
+  }
+  nav {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 88px;
+    padding: 0 25px;
+  }
+  nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 0 23px;
+  }
+  nav ul li a{
+    color:black; 
+    text-decoration-line: none;
+  }
+  nav ul li a:hover {
+    font-weight: bold;
+  }
+  .search{
+      display: flex;
+      align-items: center;
+  }
+  .search input{
+      width: 30vw;
+      height: 27px;
+      border-radius: 2px;
+      margin: 0 18px 0 50px;
+      padding: 0 10px;
+  }
+  .search button{
+      font-family: "Lato", sans-serif;
+  }
+  main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: peachpuff;
+  }
+  .container {
+    display: flex;
+    margin: 11vh;
+    width: 31vw;
+    height: 70vh;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+  }
+  .question {
+    font-size: 4vh;
+    margin: 4vh auto;
+  }
+  .fill {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fill input {
+    font-family: "Lato", sans-serif;
+    height: 5vh;
+    width: 25vw;
+    margin: 1vh auto;
+    /* margin: 0 18px 0 50px; */
+      padding: 0 10px;
+  }
+  /* .options input :hover{
+      font-weight: bold;
+  } */
+  .submit {
+    display: flex;
+    justify-content: center;
+    margin: 3vh auto -1vh;
+  }
+  .submit input {
+    height: 5vh;
+    width: 20vw;
+    margin: 0 18px 0 50px;
+    padding: 0 10px;
+  }
+  
