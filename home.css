@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@300&family=Red+Hat+Display:wght@300&family=Sarabun:wght@100&family=Satisfy&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: pink;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a{
+  color:black; 
+  text-decoration-line: none;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 2px;
+  margin: 0 18px 0 50px;
+  padding: 0 10px;
+}
+.search button {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  background-color: peachpuff;
+  min-height: calc(100vh - 58px - 12vh);
+}
+.slider {
+  margin: auto;
+  width: 80vw;
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.slider img {
+  border: 1px solid salmon;
+  border-radius: 2px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.475);
+  border: 1px black;
+  border-radius: 2px;
+  max-width: 91vw;
+  margin: auto;
+  padding: 9px;
+}
+.card-item {
+  padding: 0 17px 0 17px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-item img {
+  border: 1px solid salmon;
+  border-radius: 2px;
+}
+.card h2 {
+  font-family: "Lato", sans-serif;
+}
+.card line {
+  font-family: "Lato", sans-serif;
+}
+.card p:hover {
+  font-weight: bold;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: rgb(240, 159, 186);
+  color: white;
+  height: 30px;
+  font-family: "Lato", sans-serif;
+}
