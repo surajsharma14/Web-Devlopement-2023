@@ -1,76 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: pink;
-  }
-  nav {
-    display: flex;
-  }
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  .logo img {
-    width: 88px;
-    padding: 0 25px;
-  }
-  nav ul {
-    height: 58px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  nav ul li {
-    list-style: none;
-    padding: 0 23px;
-  }
-  nav ul li a{
-    color:black; 
-    text-decoration-line: none;
-  }
-  nav ul li a:hover {
-    font-weight: bold;
-  }
-  .search {
-    display: flex;
-    align-items: center;
-  }
-  .search input {
-    width: 30vw;
-    height: 27px;
-    border-radius: 2px;
-    margin: 0 18px 0 50px;
-    padding: 0 10px;
-  }
-  .search button {
-    font-family: "Lato", sans-serif;
-  }
-  main {
-      background-color: peachpuff;
-      min-height: calc(100vh - 54px );
-      /* height: 100vh; */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  .about {
-    height: 500px;
-    width: 600px;
-    background-color: rgb(249, 235, 208);
-    margin: 20px;
-    padding: 33px;
-    border: 1px solid salmon;
-    border-radius: 3px;
-  }
-  h1{
-    font-size: 45px;
-    margin-bottom: 10px;
-  
-  }
-  p{
-    font-size: 17px;
-    margin-bottom: 10px;
-  
-  }
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: pink;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: black;
+  text-decoration-line: none;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 2px;
+  margin: 0 18px 0 50px;
+  padding: 0 10px;
+}
+.search button {
+  font-family: "Lato", sans-serif;
+}
+main {
+  background-color: peachpuff;
+  min-height: calc(100vh - 54px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  height: 500px;
+  width: 600px;
+  background-image: url("http://wallpapercave.com/wp/DuTRrp7.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  margin: 20px;
+  padding: 33px;
+  border: 1px solid salmon;
+  border-radius: 3px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ff6600;
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: black;
+}
