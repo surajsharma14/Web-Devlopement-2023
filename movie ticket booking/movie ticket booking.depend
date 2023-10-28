@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1386420876 source:e:\movie ticket booking\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"conio2.h"
+
+1386340778 e:\movie ticket booking\conio2.h
+	<conio.h>
+	<windows.h>
+
+1660903896 source:e:\movie ticket booking\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio2.h"
+	<string.h>
+	<error.h>
+	<dir.h>
+	"MTH.h"
+
+1660903896 e:\movie ticket booking\mth.h
+	<time.h>
+
+1667037671 source:e:\movie ticket booking\mth.c
+	"MTH.h"
+	<string.h>
+	<math.h>
+	"conio2.h"
+	<stdio.h>
+	<error.h>
+	<dir.h>
+
